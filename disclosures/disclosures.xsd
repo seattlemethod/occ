@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:disclosures="https://github.com/seattlemethod/occ/disclosures" targetNamespace="https://github.com/seattlemethod/occ/disclosures" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="https://github.com/seattlemethod/occ/disclosures/role/Disclosures" id="Disclosures">
+        <link:definition>Disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="disclosures-lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="disclosures-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <complexType name="disclosureItemType">
+    <simpleContent>
+      <restriction base="xbrli:tokenItemType">
+        <attributeGroup ref="xbrli:nonNumericItemAttrs" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <element id="disclosures_DisclosuresAbstract" name="DisclosuresAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="disclosures_LiabilitiesRollUp" name="LiabilitiesRollUp" type="disclosures:disclosureItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" />
+  <element id="disclosures_ReportToController" name="ReportToController" type="disclosures:disclosureItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" />
+  <element id="disclosures_ResourcesRollUp" name="ResourcesRollUp" type="disclosures:disclosureItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" />
+</schema>
