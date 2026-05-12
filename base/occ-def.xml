@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+
+  <roleRef xlink:type="simple" xlink:href="occ-roles.xsd#ReportToComptroller" roleURI="https://github.com/seattlemethod/occ/role/ReportToComptroller" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+
+  <definitionLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/occ/role/ReportToComptroller">
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_HypercubeLineItems" xlink:label="occ_HypercubeLineItems" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_ReportToComptrollerHypercube" xlink:label="occ_ReportToComptrollerHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="occ_HypercubeLineItems" xlink:to="occ_ReportToComptrollerHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_LoansIncludingOverdraft" xlink:label="occ_LoansIncludingOverdraft" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_LoansIncludingOverdraft" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_USBondsAndPremiums" xlink:label="occ_USBondsAndPremiums" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_USBondsAndPremiums" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RealEstateFurnitureAndFixtures" xlink:label="occ_RealEstateFurnitureAndFixtures" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_RealEstateFurnitureAndFixtures" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RedemptionFundWithUSTreasurer" xlink:label="occ_RedemptionFundWithUSTreasurer" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_RedemptionFundWithUSTreasurer" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_CashAndDueFromBanks" xlink:label="occ_CashAndDueFromBanks" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_CashAndDueFromBanks" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Resources" xlink:label="occ_Resources" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_Resources" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Capital" xlink:label="occ_Capital" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_Capital" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_SurplusAndUndividedProfits" xlink:label="occ_SurplusAndUndividedProfits" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_SurplusAndUndividedProfits" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Circulation" xlink:label="occ_Circulation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_Circulation" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Deposits" xlink:label="occ_Deposits" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_Deposits" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Liabilities" xlink:label="occ_Liabilities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="occ_HypercubeLineItems" xlink:to="occ_Liabilities" order="12" use="optional" />
+  </definitionLink>
+</linkbase>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+
+  <roleRef xlink:type="simple" xlink:href="occ-roles.xsd#ReportToComptroller" roleURI="https://github.com/seattlemethod/occ/role/ReportToComptroller" />
+
+  <calculationLink xlink:type="extended" xlink:role="https://github.com/seattlemethod/occ/role/ReportToComptroller">
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Liabilities" xlink:label="occ_Liabilities" xlink:title="calculation: report_Liabilities to report_Capital" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Capital" xlink:label="occ_Capital" xlink:title="calculation: report_Liabilities to report_Capital" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Liabilities" xlink:to="occ_Capital" xlink:title="calculation: report_Liabilities to report_Capital" order="6" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_SurplusAndUndividedProfits" xlink:label="occ_SurplusAndUndividedProfits" xlink:title="calculation: report_Liabilities to report_SurplusAndUndividedProfits" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Liabilities" xlink:to="occ_SurplusAndUndividedProfits" xlink:title="calculation: report_Liabilities to report_SurplusAndUndividedProfits" order="7" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Circulation" xlink:label="occ_Circulation" xlink:title="calculation: report_Liabilities to report_Circulation" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Liabilities" xlink:to="occ_Circulation" xlink:title="calculation: report_Liabilities to report_Circulation" order="8" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Deposits" xlink:label="occ_Deposits" xlink:title="calculation: report_Liabilities to report_Deposits" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Liabilities" xlink:to="occ_Deposits" xlink:title="calculation: report_Liabilities to report_Deposits" order="9" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Resources" xlink:label="occ_Resources" xlink:title="calculation: report_Resources to report_LoansIncludingOverdraft" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_LoansIncludingOverdraft" xlink:label="occ_LoansIncludingOverdraft" xlink:title="calculation: report_Resources to report_LoansIncludingOverdraft" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Resources" xlink:to="occ_LoansIncludingOverdraft" xlink:title="calculation: report_Resources to report_LoansIncludingOverdraft" order="1" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_USBondsAndPremiums" xlink:label="occ_USBondsAndPremiums" xlink:title="calculation: report_Resources to report_USBondsAndPremiums" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Resources" xlink:to="occ_USBondsAndPremiums" xlink:title="calculation: report_Resources to report_USBondsAndPremiums" order="2" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RealEstateFurnitureAndFixtures" xlink:label="occ_RealEstateFurnitureAndFixtures" xlink:title="calculation: report_Resources to report_RealEstateFurnitureAndFixtures" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Resources" xlink:to="occ_RealEstateFurnitureAndFixtures" xlink:title="calculation: report_Resources to report_RealEstateFurnitureAndFixtures" order="3" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RedemptionFundWithUSTreasurer" xlink:label="occ_RedemptionFundWithUSTreasurer" xlink:title="calculation: report_Resources to report_RedemptionFundWithUSTreasurer" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Resources" xlink:to="occ_RedemptionFundWithUSTreasurer" xlink:title="calculation: report_Resources to report_RedemptionFundWithUSTreasurer" order="4" weight="1" priority="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_CashAndDueFromBanks" xlink:label="occ_CashAndDueFromBanks" xlink:title="calculation: report_Resources to report_CashAndDueFromBanks" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="occ_Resources" xlink:to="occ_CashAndDueFromBanks" xlink:title="calculation: report_Resources to report_CashAndDueFromBanks" order="5" weight="1" priority="1" use="optional" />
+  </calculationLink>
+</linkbase>

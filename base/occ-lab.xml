@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Capital" xlink:label="occ_Capital" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_Capital" xlink:to="occ_Capital_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_Capital_lbl" xml:lang="en">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam euismod metus erat, vel condimentum eros auctor sit amet.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_Capital_lbl" xml:lang="en">Capital</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_CashAndDueFromBanks" xlink:label="occ_CashAndDueFromBanks" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_CashAndDueFromBanks" xlink:to="occ_CashAndDueFromBanks_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_CashAndDueFromBanks_lbl" xml:lang="en">Sed venenatis risus sed velit hendrerit, in sodales sem hendrerit. Cras finibus suscipit purus. Phasellus et luctus mi, id fringilla lectus.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_CashAndDueFromBanks_lbl" xml:lang="en">Cash and Due from Banks</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Circulation" xlink:label="occ_Circulation" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_Circulation" xlink:to="occ_Circulation_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_Circulation_lbl" xml:lang="en">Duis sed venenatis massa, sed vehicula lacus. Proin eu velit magna. Aenean vel accumsan nunc, vitae luctus metus. Morbi a venenatis magna, tempus luctus lorem.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_Circulation_lbl" xml:lang="en">Circulation</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Deposits" xlink:label="occ_Deposits" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_Deposits" xlink:to="occ_Deposits_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_Deposits_lbl" xml:lang="en">Aliquam augue ipsum, accumsan at erat vitae, elementum commodo est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam commodo sapien a finibus fringilla.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_Deposits_lbl" xml:lang="en">Deposits</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_HypercubeLineItems" xlink:label="occ_HypercubeLineItems" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_HypercubeLineItems" xlink:to="occ_HypercubeLineItems_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_HypercubeLineItems_lbl" xml:lang="en">Aenean justo quam, egestas ac scelerisque nec, bibendum vel neque. Sed sollicitudin ultrices mi.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_HypercubeLineItems_lbl" xml:lang="en">Hypercube [Line Items]</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_LiabilitiesRollUp" xlink:label="occ_LiabilitiesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_LiabilitiesRollUp" xlink:to="occ_LiabilitiesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_LiabilitiesRollUp_lbl" xml:lang="en">Donec porta erat ac eros hendrerit, a blandit enim interdum. Praesent consectetur ac elit sed condimentum. Fusce vitae leo tristique, hendrerit neque a, tristique elit. Quisque id dolor id mauris faucibus gravida mattis sed sapien. Donec sodales tortor non posuere finibus.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_LiabilitiesRollUp_lbl" xml:lang="en">Liabilities [Roll Up]</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Liabilities" xlink:label="occ_Liabilities" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_Liabilities" xlink:to="occ_Liabilities_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_Liabilities_lbl" xml:lang="en">Vestibulum laoreet augue in sem cursus, auctor pretium velit ultricies.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_Liabilities_lbl" xml:lang="en">Liabilities</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_LoansIncludingOverdraft" xlink:label="occ_LoansIncludingOverdraft" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_LoansIncludingOverdraft" xlink:to="occ_LoansIncludingOverdraft_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_LoansIncludingOverdraft_lbl" xml:lang="en">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed dolor a sem commodo interdum et in leo. Praesent a viverra leo. Morbi ac aliquet dui.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_LoansIncludingOverdraft_lbl" xml:lang="en">Loans, Including Overdraft</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RealEstateFurnitureAndFixtures" xlink:label="occ_RealEstateFurnitureAndFixtures" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_RealEstateFurnitureAndFixtures" xlink:to="occ_RealEstateFurnitureAndFixtures_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_RealEstateFurnitureAndFixtures_lbl" xml:lang="en">Maecenas a maximus elit. Donec in ullamcorper nisl, non pellentesque justo. Nulla justo quam, faucibus id quam at, lobortis ultricies quam. Curabitur vitae mauris eget justo vulputate imperdiet consequat et sem.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_RealEstateFurnitureAndFixtures_lbl" xml:lang="en">Real Estate, Furniture and Fixtures</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_RedemptionFundWithUSTreasurer" xlink:label="occ_RedemptionFundWithUSTreasurer" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_RedemptionFundWithUSTreasurer" xlink:to="occ_RedemptionFundWithUSTreasurer_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_RedemptionFundWithUSTreasurer_lbl" xml:lang="en">Curabitur non libero non arcu commodo condimentum a ut nisl. Aenean a dolor tortor. Sed pretium metus justo, quis tempus augue luctus quis.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_RedemptionFundWithUSTreasurer_lbl" xml:lang="en">Redemption Fund with U. S. Treasurer</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_ReportToComptrollerHypercube" xlink:label="occ_ReportToComptrollerHypercube" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_ReportToComptrollerHypercube" xlink:to="occ_ReportToComptrollerHypercube_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_ReportToComptrollerHypercube_lbl" xml:lang="en">Etiam dictum pretium lacinia. Suspendisse efficitur sollicitudin hendrerit. In a nunc in diam rutrum suscipit et id dolor. Fusce vitae elit mauris. Duis fringilla consectetur elit, eu lacinia nunc gravida et. Proin dapibus est ex, nec euismod massa eleifend a. Quisque nec cursus sapien.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_ReportToComptrollerHypercube_lbl" xml:lang="en">Report to Comptroller [Hypercube]</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_ResourcesRollUp" xlink:label="occ_ResourcesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_ResourcesRollUp" xlink:to="occ_ResourcesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_ResourcesRollUp_lbl" xml:lang="en">Aliquam erat volutpat. Curabitur ut maximus neque, vitae iaculis quam. Suspendisse lacus justo, mollis id justo non, semper ullamcorper magna. Sed lobortis ipsum eu lacinia porta.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_ResourcesRollUp_lbl" xml:lang="en">Resources [Roll Up]</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_Resources" xlink:label="occ_Resources" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_Resources" xlink:to="occ_Resources_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_Resources_lbl" xml:lang="en">Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis blandit nec dolor at semper. Etiam pellentesque, quam sed commodo vehicula, nisi erat convallis erat, ac blandit mauris libero ut sem. Vivamus sit amet nisl velit. Morbi auctor ex a eleifend egestas. Morbi ut bibendum odio, ut viverra dui. Quisque eleifend, erat at bibendum efficitur, tortor arcu suscipit purus, ut condimentum erat eros eget diam.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_Resources_lbl" xml:lang="en">Resources</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_SurplusAndUndividedProfits" xlink:label="occ_SurplusAndUndividedProfits" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_SurplusAndUndividedProfits" xlink:to="occ_SurplusAndUndividedProfits_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_SurplusAndUndividedProfits_lbl" xml:lang="en">Praesent maximus leo non lobortis tristique. Maecenas commodo sapien pharetra enim ullamcorper sollicitudin. Pellentesque facilisis condimentum lectus quis sagittis. Morbi dapibus dolor eget eros congue dignissim.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_SurplusAndUndividedProfits_lbl" xml:lang="en">Surplus and Undivided Profits</label>
+    <loc xlink:type="locator" xlink:href="occ.xsd#occ_USBondsAndPremiums" xlink:label="occ_USBondsAndPremiums" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="occ_USBondsAndPremiums" xlink:to="occ_USBondsAndPremiums_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="occ_USBondsAndPremiums_lbl" xml:lang="en">Curabitur tincidunt et quam et fermentum. Nam quis tortor vitae nunc blandit ultrices. Etiam malesuada laoreet ex, tempus porttitor lacus commodo ut.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="occ_USBondsAndPremiums_lbl" xml:lang="en">U. S. Bonds and Premiums</label>
+  </labelLink>
+</linkbase>

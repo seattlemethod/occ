@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2026-05-12 -->
+<!-- Theory Schema -->
+<?xbrlsite name='Source' value='Github (Seattle Method)'?>
+<?xbrlsite name='CreatedBy' value='Charles Hoffman, CPA'?>
+<?xbrlsite name='CreatedDate' value='2026-05-12'?>
+<?xbrlsite name='ReportingSchemeTitle' value='Office of Comptroller of Currency (OCC) Reporting Scheme'?>
+<?xbrlsite name='Description' value='Financial reporting framework working proof of concept created for Office of Comptroller of the Currency (OCC).'?>
+<?xbrlsite name='ReportingStyles' value='../fac/reporting-styles-cm-ref.xml'?>
+
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+
+  xmlns:disclosures='https://github.com/seattlemethod/occ/disclosures'
+  xmlns:dm='https://github.com/seattlemethod/occ/dm'
+  xmlns:fac='https://github.com/seattlemethod/occ/fac'
+
+  xmlns:occ='https://github.com/seattlemethod/occ'
+  xmlns:occ-entryPoint='https://github.com/seattlemethod/occ/entryPoint'
+  xmlns:occ-theory='https://github.com/seattlemethod/occ/theory'
+  targetNamespace='https://github.com/seattlemethod/occ/theory'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='../types/types-rules-def.xml' xlink:title='Types' />
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='../reportability/dr-rules-def.xml' xlink:title='Reporting Checklist' />
+
+
+
+    </appinfo>
+  </annotation>
+<import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+
+<import namespace='https://github.com/seattlemethod/occ/entryPoint' schemaLocation='occ-entryPoint.xsd' />
+
+<import namespace='https://github.com/seattlemethod/occ/fac' schemaLocation='../fac/fac.xsd' />
+<import namespace='https://github.com/seattlemethod/occ/disclosures' schemaLocation='../disclosures/disclosures.xsd' />
+<import namespace='https://github.com/seattlemethod/occ/dm' schemaLocation='../disclosure-mechanics/dm.xsd' />
+
+
+</schema>
