@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase
+  xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:occ="http://xbrlsite.com/seattlemethod/occ"
+  xmlns:ref="http://www.xbrl.org/2004/ref"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrlsite.com/seattlemethod/occ occ.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd">
+
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_LiabilitiesRollUp" xlink:label="disclosures_LiabilitiesRollUp" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="disclosures_LiabilitiesRollUp" xlink:to="disclosures_LiabilitiesRollUp_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="disclosures_LiabilitiesRollUp_ref">
+      <ref:Publisher>OCC</ref:Publisher>
+      <ref:URIDate>2025-03-22</ref:URIDate>
+      <ref:URI>https://www.occ.gov/</ref:URI>
+    </reference>
+
+
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ReportToController" xlink:label="disclosures_ReportToController" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="disclosures_ReportToController" xlink:to="disclosures_ReportToController_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="disclosures_ReportToController_ref">
+      <ref:Publisher>OCC</ref:Publisher>
+      <ref:URIDate>2025-03-22</ref:URIDate>
+      <ref:URI>https://www.occ.gov/</ref:URI>
+    </reference>
+
+
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ResourcesRollUp" xlink:label="disclosures_ResourcesRollUp" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="disclosures_ResourcesRollUp" xlink:to="disclosures_ResourcesRollUp_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="disclosures_ResourcesRollUp_ref">
+      <ref:Publisher>OCC</ref:Publisher>
+      <ref:URIDate>2025-03-22</ref:URIDate>
+      <ref:URI>https://www.occ.gov/</ref:URI>
+    </reference>
+
+</referenceLink>
+
+</linkbase>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_LiabilitiesRollUp" xlink:label="disclosures_LiabilitiesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_LiabilitiesRollUp" xlink:to="disclosures_LiabilitiesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="disclosures_LiabilitiesRollUp_lbl" xml:lang="en-US">Donec vel eleifend libero. Nam eu purus et velit posuere dictum. Suspendisse potenti. Duis non lacus et lorem fringilla dignissim. Vestibulum maximus nulla id orci porttitor fermentum. Sed risus ante, volutpat ac nisl a, tempor condimentum lacus. Aenean at fermentum neque.</label>
+
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ReportToController" xlink:label="disclosures_ReportToController" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_ReportToController" xlink:to="disclosures_ReportToController_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="disclosures_ReportToController_lbl" xml:lang="en-US">Aliquam facilisis sem tempor nisi cursus gravida non in tortor. Nulla maximus ultricies feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sed blandit erat, nec luctus turpis. Sed ac iaculis massa.</label>
+
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ResourcesRollUp" xlink:label="disclosures_ResourcesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_ResourcesRollUp" xlink:to="disclosures_ResourcesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="disclosures_ResourcesRollUp_lbl" xml:lang="en-US">Vestibulum viverra convallis odio id cursus. Nunc volutpat risus at lacus scelerisque convallis. Curabitur vestibulum consequat lacus vel vehicula. Morbi magna tortor, dignissim a molestie in, faucibus non orci.</label>
+  </labelLink>
+</linkbase>

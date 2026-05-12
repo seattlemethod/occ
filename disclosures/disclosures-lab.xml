@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_DisclosuresAbstract" xlink:label="disclosures_DisclosuresAbstract" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_DisclosuresAbstract" xlink:to="disclosures_DisclosuresAbstract_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="disclosures_DisclosuresAbstract_lbl" xml:lang="en-US">Disclosures [Abstract]</label>
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_LiabilitiesRollUp" xlink:label="disclosures_LiabilitiesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_LiabilitiesRollUp" xlink:to="disclosures_LiabilitiesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="disclosures_LiabilitiesRollUp_lbl" xml:lang="en-US">Liabilities Roll Up</label>
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ReportToController" xlink:label="disclosures_ReportToController" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_ReportToController" xlink:to="disclosures_ReportToController_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="disclosures_ReportToController_lbl" xml:lang="en-US">Report to Controller</label>
+    <loc xlink:type="locator" xlink:href="disclosures.xsd#disclosures_ResourcesRollUp" xlink:label="disclosures_ResourcesRollUp" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="disclosures_ResourcesRollUp" xlink:to="disclosures_ResourcesRollUp_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="disclosures_ResourcesRollUp_lbl" xml:lang="en-US">Resources Roll Up</label>
+  </labelLink>
+</linkbase>
