@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<link:linkbase
+  xmlns='http://www.xbrl.org/2003/linkbase'
+  xmlns:xbrldt='http://xbrl.org/2005/xbrldt'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='cm_Disclosure' order='2' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures/disclosures.xsd#disclosures_ResourcesRollUp' xlink:label='disclosures_ResourcesRollUp' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Disclosure' xlink:to='disclosures_ResourcesRollUp' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures/disclosures.xsd#disclosures_LiabilitiesRollUp' xlink:label='disclosures_LiabilitiesRollUp' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Disclosure' xlink:to='disclosures_LiabilitiesRollUp' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../disclosures/disclosures.xsd#disclosures_ReportToController' xlink:label='disclosures_ReportToController' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Disclosure' xlink:to='disclosures_ReportToController' order='3' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='occ_Resources' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Liabilities' xlink:label='occ_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='occ_Liabilities' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_LoansIncludingOverdraft' xlink:label='occ_LoansIncludingOverdraft' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Resources' xlink:to='occ_LoansIncludingOverdraft' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_USBondsAndPremiums' xlink:label='occ_USBondsAndPremiums' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Resources' xlink:to='occ_USBondsAndPremiums' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_RealEstateFurnitureAndFixtures' xlink:label='occ_RealEstateFurnitureAndFixtures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Resources' xlink:to='occ_RealEstateFurnitureAndFixtures' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_RedemptionFundWithUSTreasurer' xlink:label='occ_RedemptionFundWithUSTreasurer' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Resources' xlink:to='occ_RedemptionFundWithUSTreasurer' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Resources' xlink:label='occ_Resources' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_CashAndDueFromBanks' xlink:label='occ_CashAndDueFromBanks' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Resources' xlink:to='occ_CashAndDueFromBanks' order='5' use='optional' />
+   </link:definitionLink>
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Liabilities' xlink:label='occ_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Capital' xlink:label='occ_Capital' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Liabilities' xlink:to='occ_Capital' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Liabilities' xlink:label='occ_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_SurplusAndUndividedProfits' xlink:label='occ_SurplusAndUndividedProfits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Liabilities' xlink:to='occ_SurplusAndUndividedProfits' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Liabilities' xlink:label='occ_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Circulation' xlink:label='occ_Circulation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Liabilities' xlink:to='occ_Circulation' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Liabilities' xlink:label='occ_Liabilities' />
+      <link:loc xlink:type='locator' xlink:href='../base/occ.xsd#occ_Deposits' xlink:label='occ_Deposits' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='occ_Liabilities' xlink:to='occ_Deposits' order='4' use='optional' />
+   </link:definitionLink>
+
+
+</link:linkbase>
